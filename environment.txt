@@ -1,0 +1,18 @@
+# Example1 For default site
+# SITEURL=
+# SERVERURL=https://tableauserver.example.co.jp
+# APIVERSION=3.17
+#
+# Example2 For the site with URL: "testsite"
+# SITEURL=testsite
+# SERVERURL=https://tableauserver.example.co.jp
+# APIVERSION=3.20
+#
+# Example3 For default site without PAT but with username(tsuser) and password authentication (password.txt file is also required)
+# SITEURL=
+# SERVERURL=https://tableauserver.example.co.jp
+# APIVERSION=3.20
+# USERNAME=tsuser
+# 
+# Regarding API version see also: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_concepts_versions.htm#version_and_rest
+#

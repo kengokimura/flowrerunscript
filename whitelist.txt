@@ -1,0 +1,8 @@
+# Example of entries:
+# http://tableauserver.example.co.jp/#/flows/9
+# http://tableauserver.example.co.jp/#/flows/11
+# http://tableauserver.example.co.jp/#/flows/12
+# http://tableauserver.example.co.jp/#/flows/13/overview
+# http://tableauserver.example.co.jp/#/site/site1/flows/15/overview
+#
+# Note that the script extracts from "/#" to "/flows/<number>" from entries

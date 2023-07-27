@@ -1,0 +1,4 @@
+# Example of entries:
+# patName=testPatName
+# patSecret=N7bOXtBMSDSPjYtf+CaqZA==:b4GKcH6hJCiqHh5xxWdNC7mH1bl9fzNf
+#

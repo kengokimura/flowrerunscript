@@ -9,7 +9,7 @@ $consectiveFailureThreshold=3
 $envProperties = Get-Content -Path "./environment.txt" | Where-Object { $_ -notlike '#*' }
 foreach ($envProperty in $envProperties) {
     if ($envProperty.StartsWith("SERVERURL=")) {
-        $regexServerFqdn = [regex]'SERVERURL=(.*)'
+        $regexServerFqdn = [regex]'SERVERURL=(https?://[^/]+)'
         $serverfqdn = $regexServerFqdn.Match($envProperty).Groups[1].Value
     } elseif ($envProperty.StartsWith("SITEURL=")) {
         $regexSiteUrl = [regex]'SITEURL=(.*)'
